@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(220, 220, 220);
+  background-image: url(paisley.webp); 
+  font-family: 16px/28px Arial, Helvetica, sans-serif;
+  }
+  
+.container{
+  width: 250px;
+  background-color: aqua;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 10%;
+  /* box-sizing: border-box; */
+  /* overflow: auto; */
+}
+
+.judul{
+  text-align: center;
+  width: 40%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+}
