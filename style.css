@@ -43,6 +43,7 @@ body {
   /* bottom: 1px; */
   z-index: 9999;
   border-radius: 20px;
+  
 }
 .container{
    width: 960px;
@@ -160,7 +161,20 @@ th, td {
   /* border: solid; */
   background-color: gold;
   /* margin-top: 10px; */
+  transition: 2s;
 }
+.sidebar img:hover{
+  transform: scale(2);
+}
+
+.sidebar2 img:hover{
+  transform: scale(1.5);
+}
+
+.sidebar3 img:hover{
+  transform: scale(1.5);
+}
+
 .sidebar h5{
   font-weight: bold;
   color:#666;
@@ -184,6 +198,7 @@ th, td {
   /* border: solid; */
   background-color: lightskyblue;
   /* margin-top: 10px; */
+  transition: 2s;
 }
 .sidebar2 h5{
   font-weight: bold;
@@ -207,6 +222,7 @@ th, td {
   /* border: solid; */
   background-color: lightslategray;
   /* margin-top: 10px; */
+  transition: 2s;
 }
 .sidebar3 h5{
   font-weight: bold;
@@ -220,6 +236,7 @@ th, td {
   height: 40%;
   float: left;
   padding-right:10px ;
+  /* filter: grayscale(100%); */
 }
 
 
