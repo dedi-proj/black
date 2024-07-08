@@ -7,13 +7,40 @@ body {
 /* div{
   box-sizing: border-box;
 } */
-.himg{
+.headt{
   position: fixed;
   top: 0;
   left: 1px;
   right:0;
   z-index: 9999;
   border-radius: 20px;
+
+}
+
+.link{
+  /* float: right; */
+  /* align-items: center;
+  display: flex; */
+  margin-top: -4px;
+  padding: 2px;
+  background-color: #000000;
+  text-align: right;
+}
+.link ul li {
+  display: inline-block;
+  margin-right: 20px;
+  size: 30px;
+
+}
+.link li a{
+  color: salmon;
+  text-decoration: none;
+  padding: 3px;
+  size: 30px;
+}
+.link li a:hover{
+  background-color: lightblue;
+  color: white;
 }
 
 .himg1{
@@ -47,7 +74,7 @@ body {
 }
 .container{
    width: 960px;
-   margin: 160px auto;
+   margin: 210px auto;
    background-color: white; 
    border-top: 5px solid saddlebrown;
    overflow: auto; 
@@ -57,25 +84,7 @@ body {
 }
 
 
-.link{
-  padding-top: 1px;
-  float: right;
-}
-.link ul li {
-  display: inline-block;
-  margin-right: 15px;
-  size: 30px;
-}
-.link li a{
-  color: salmon;
-  text-decoration: none;
-  padding: 3px;
-  size: 30px;
-}
-.link li a:hover{
-  background-color: lightblue;
-  color: white;
-}
+
 .head {
     text-align: center;
     background-image: linear-gradient(45deg,darkblue,black);
@@ -85,7 +94,10 @@ body {
     width: 100%;
     display: inline-block; 
     margin: auto; 
-    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid lightskyblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .main{
